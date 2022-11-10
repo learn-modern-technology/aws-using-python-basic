@@ -1,0 +1,60 @@
+{
+    "Vpcs": [
+        {
+            "CidrBlock": "172.31.0.0/16",
+            "DhcpOptionsId": "dopt-01b7b19bd23c334e2",
+            "State": "available",
+            "VpcId": "vpc-04ba2d6cb7d26c5d1",
+            "OwnerId": "293938022129",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-037dbc3df408717f6",
+                    "CidrBlock": "172.31.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": true
+        },
+        {
+            "CidrBlock": "10.0.0.0/16",
+            "DhcpOptionsId": "dopt-01b7b19bd23c334e2",
+            "State": "available",
+            "VpcId": "vpc-06062da28ff7f5aae",
+            "OwnerId": "293938022129",
+            "InstanceTenancy": "default",
+            "CidrBlockAssociationSet": [
+                {
+                    "AssociationId": "vpc-cidr-assoc-0153651226c530fe9",
+                    "CidrBlock": "10.0.0.0/16",
+                    "CidrBlockState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "IsDefault": false,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "my-vpc-using-python"
+                }
+            ]
+        }
+    ],
+    "ResponseMetadata": {
+        "RequestId": "e233544c-acf1-48c6-98e7-529ca7355b40",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "e233544c-acf1-48c6-98e7-529ca7355b40",
+            "cache-control": "no-cache, no-store",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "content-type": "text/xml;charset=UTF-8",
+            "content-length": "1925",
+            "date": "Tue, 20 Sep 2022 04:36:07 GMT",
+            "server": "AmazonEC2"
+        },
+        "RetryAttempts": 0
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "Region" : "us-east-1",
+    "S3Region" : "ap-south-1",
+    "custom_vpc_ip" : "10.0.0.0/16",
+    "Tenancy" : "default",
+    "maxvpclist": "10",
+    "tagname" : "Name",
+    "tagvalue" : "my-aws-infra-using-python",
+    "vpc_resource_type": "vpc",
+    "sg_resource_type": "security-group",
+    "sec_group_name": "vpc_security_group",
+    "ec2data_path":"./configs/ec2data.json",
+    "s3_data_path":"./../configs/storagedata.json",
+    "region_AZ": ["us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d", "us-east-1e", "us-east-1f"],
+    "subnet_cidr_A": "10.0.1.0/28",
+    "subnet_cidr_B": "10.0.3.0/28",
+    "subnet_cidr_C": "10.0.5.0/28",
+    "subnet_cidr_D": "10.0.7.0/28",
+    "subnet_resource_type": "subnet",
+    "igw_resource_type": "internet-gateway",
+    "ec2_instance_type": "t2.micro",
+    "ec2_ami_id": "ami-08c40ec9ead489470",
+    "ec2_key_path": "./ec2_python_key.pem",
+    "ec2_key_name": "ec2-key-pair",
+    "ec2_resource_type": "instance",
+    "key_resource_type": "key-pair",
+    "ec2_user_data": "user_data_app.sh"
+
+
+
+
+}

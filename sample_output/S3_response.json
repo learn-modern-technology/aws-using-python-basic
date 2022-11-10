@@ -1,0 +1,13 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "4AX0NGFEMGKDK4W5",
+        "HostId": "7SyFVuJnW2Vro9AA8wUbVSMQKKE7+6xg3e5/7tTfTTD/6OX6Hx6XFOzrcFdZR8RO3N7OkpEaL7U=",
+        "HTTPStatusCode": 204,
+        "HTTPHeaders": {
+            "x-amz-id-2": "7SyFVuJnW2Vro9AA8wUbVSMQKKE7+6xg3e5/7tTfTTD/6OX6Hx6XFOzrcFdZR8RO3N7OkpEaL7U=",
+            "x-amz-request-id": "4AX0NGFEMGKDK4W5",
+            "date": "Fri,23 Sep 2022 08: 38: 33 GMT", "server": "AmazonS3"
+        },
+        "RetryAttempts": 0
+    }
+}
